@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: fti-file-repo-api
+  description: "The FTI File Repo is a VEFS-derived application that allows for the retrieval of documents containing Federal Tax Information."
+spec:
+  type: openapi
+  lifecycle: production
+  owner: "fti"
+  definition:
+    $text: https://github.com/dstrivelli/fti-file-repo/blob/master/openapi.yaml

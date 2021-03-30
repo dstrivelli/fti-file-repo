@@ -1,0 +1,8 @@
+site_name: "fti-file-repo"
+site_description: "The FTI File Repo is a VEFS-derived application that allows for the retrieval of documents containing Federal Tax Information."
+
+nav:
+  - Overview: index.md
+
+plugins:
+  - techdocs-core
