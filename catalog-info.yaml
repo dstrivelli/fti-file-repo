@@ -18,3 +18,5 @@ spec:
   owner: "fti"
   providesApis:
     - fti-file-repo
+  consumesApis:
+    - vefs-api
